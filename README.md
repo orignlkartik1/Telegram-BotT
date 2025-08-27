@@ -2,7 +2,7 @@
 
 A simple Telegram bot built with [Python] that [take orders,suggestion and complaints related to services].
 
-## Note :- Now, this is in working stage.
+## Note :- Now, This is in working stage.
 
 ## For Contribution:
 
