@@ -1,6 +1,14 @@
 import telebot
-token = 'api_key'
-bot = telebot.TeleBot(token)
+
+from dotenv import load_dotenv
+import os
+
+# Load variables from .env
+load_dotenv()
+
+api_token = os.getenv('API_TOKEN')
+
+bot = telebot.TeleBot(api_token)
 
 @bot.message_handler(commands=['start', 'hello'])
 def send_welcome(message):
